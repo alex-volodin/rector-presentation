@@ -25,7 +25,7 @@
 
 Отображает AST в виде объектов PHP Parser. Так можно быстрее определить тип узла и из-чего он состоит, так как они имеют полные неймспейсы и реальное состояние на момент парсинга.
 
-Ссылка на проект: [git](https://github.com/matthiasnoback/php-parser-instantiation-printer)
+[Ссылка на git проекта](https://github.com/matthiasnoback/php-parser-instantiation-printer)
 
 Установка:
 
@@ -35,4 +35,7 @@
 
 `vendor/bin/print-node-instantiation-code <source-file>`
 
-
+## Мои проекты, использующие Rector:
+- [Каталог П, с наиболее актуальным конфигом Rector](https://gitlab.skyeng.link/skyeng/skyeng-teacher-catalog/-/blob/master/rector.php)
+- [Тот самый marketing-cms-bundle](https://gitlab.skyeng.link/skyeng/marketing-cms-bundle)
+- [Проект skyeng-frontface-backend, использующий этот бандл](https://gitlab.skyeng.link/skyeng/skyeng-frontface-backend/-/tree/master/utils/rector)
